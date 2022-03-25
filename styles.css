@@ -39,7 +39,7 @@ h3 {
     border: 5px solid #e7e9fe;
     font-weight: 700;
     padding: 1rem;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 #lastName{
     grid-row:1/2;
@@ -48,7 +48,7 @@ h3 {
     font-weight: 700;
     padding: 1rem;
     border: 5px solid #e7e9fe;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 #email{
     grid-row:2/3;
@@ -57,7 +57,7 @@ h3 {
     border: 5px solid #dce1ff;
     font-weight: 700;
     padding: 1rem;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 #phone{
     grid-row:2/3;
@@ -66,7 +66,7 @@ h3 {
     border: 5px solid #dce1ff;
     font-weight: 700;
     padding: 1rem;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 #adr{
     grid-row:3/4;
@@ -75,7 +75,7 @@ h3 {
     border: 5px solid #c7cdfd;
     font-weight: 700;
     padding: 1rem;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 #message{
     grid-row:4/5;
@@ -84,7 +84,7 @@ h3 {
     border: 5px solid #a5b1fd;
     font-weight: 700;
     padding: 0.5rem 1rem 3rem 1rem;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 ::placeholder {
     color: #233bf5;
@@ -92,9 +92,11 @@ h3 {
 #submit{
     grid-row:5/6;
     grid-column:2/4;
+    padding: 10px 0 10px 0px;
+    width:150px;
     background-color: #233bf5;
     border: 5px solid #233bf5;
-    border-radius: 10%;
+    border-radius: 30px;
     color: white;
 }
 h5 {
